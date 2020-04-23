@@ -9,7 +9,7 @@ export class HealthController {
   @HealthCheck()
   healthCheck() {
     return this.health.check([
-      async () => this.dns.pingCheck('google', 'https://google.com'),
+      () => this.dns.pingCheck('google', 'https://google.com'),
     ]);
   }
 }
