@@ -27,6 +27,13 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+The nestjs-practice is a backend project which created by using nestjs framework
+
+## Create a new project using nestjs/cli
+```
+$ npm i -g @nestjs/cli
+$ nest new project-name
+```
 
 ## Installation
 
@@ -46,6 +53,8 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+## Verifying the result
+Open browser and visit localhost:3000, seeing `hello world`
 
 ## Test
 
